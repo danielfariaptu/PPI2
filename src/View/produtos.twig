@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Listagem</title>
+             <h1>Listagem</h1>
+    </head>
+    <body>
+        <ul style="text-decoration: none; list-style: none;" id="navigation">
+        {% for p in dados %}
+            <li><a >Nome:<a/>{{ p.nome }} - <a>Preço:<a/>{{ p.preco }} - <a>ID:<a/>{{ p.id }}&nbsp&nbsp&nbsp<a>EXCLUIR</a></br></br></li>
+           
+            
+        {% endfor %}
+        </ul>
+
+   
+      
+    </body>
+</html>

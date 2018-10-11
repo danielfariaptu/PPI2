@@ -1,0 +1,21 @@
+{
+    "name": "iftm/ppi2",
+    "description": "Projeto desenvolvido na aula de PPI2",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Faria",
+            "email": "danielfariaptu@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/http-foundation": "^3.4",
+        "symfony/routing": "^3.4",
+        "twig/twig": "^2.0"
+    },
+    "autoload":{
+        "psr-4":{
+            "PPI2\\":"src/"
+        }
+    }
+}
